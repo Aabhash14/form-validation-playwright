@@ -99,7 +99,7 @@ test.afterEach(async ({ page }, testInfo) => {
 });
 ```
 
-This keeps Playwright's default video in `test-results/` and also saves a copy to `artifacts\videos\`.
+This keeps Playwright's default video in `test-results/` and saves a copy to `artifacts\videos\`.
 
 ## Configuration Notes
 The current `playwright.config.js` is set to:
